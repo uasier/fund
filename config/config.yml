@@ -1,0 +1,4 @@
+db:
+  path: "res/db.db"
+
+
