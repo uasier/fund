@@ -37,6 +37,8 @@ class fund_value():
         res =[]
         i = len(json_info)
         j = 0
+        if i == 0:
+            return res
         timestamp = self.change_time_2_int(json_info[i - 1]['FSRQ']) - 86400
         while i > 0:
             i = i - 1
